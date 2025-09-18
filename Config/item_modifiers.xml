@@ -1,0 +1,73 @@
+<!-- 
+    Buckshot Arsenal
+    Gospel of Buckshot
+    Buckshot Gospel
+    Messiah’s Arsenal
+    Shotgun Messiah Reborn
+    Doctrine of Boom
+    Holy Trinity of Boom
+
+    Shotgun Specialist
+-->
+
+<IronSharkInc>
+
+    <append xpath="//item_modifiers">
+
+        <!-- block damage -->
+        <item_modifier name="modShotgunIsiBlockDamage" installable_tags="shotgun"
+            modifier_tags="perkShotgunMessiahComplete" blocked_tags="noMods"
+            type="attachment"
+            icon="resourceScrapIron">
+            <property name="Extends" value="modGeneralMaster" />
+            <property name="CustomIcon" value="ammoShotgunBreachingSlug" />
+            <property name="CustomIconTint" value="255,166,77" />
+            <property name="UnlockedBy" value="perkShotgunMessiahComplete" />
+            <property name="TraderStageTemplate" value="modsTier1" />
+
+            <effect_group tiered="false">
+                <passive_effect name="BlockDamage" operation="base_add" value="25"
+                    tags="wood,door,lockedSafe,buriedTreasure" />
+                <passive_effect name="BlockDamage" operation="perc_add" value="3"
+                    tags="wood,door,lockedSafe,buriedTreasure" />
+            </effect_group>
+
+        </item_modifier>
+
+        <!-- knock back -->
+        <item_modifier name="modShotgunIsiRagdoll" installable_tags="shotgun"
+            modifier_tags="perkShotgunMessiahComplete" blocked_tags="noMods"
+            type="attachment"
+            icon="resourceScrapIron">
+            <property name="Extends" value="modGeneralMaster" />
+            <property name="CustomIcon" value="meleeWpnSledgeT1IronSledgehammer" />
+            <property name="CustomIconTint" value="255,166,77" />
+            <property name="UnlockedBy" value="perkShotgunMessiahComplete" />
+            <property name="TraderStageTemplate" value="modsTier1" />
+
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfAttackedOther" action="Ragdoll" target="other"
+                    duration="1" force="70" />
+            </effect_group>
+        </item_modifier>
+
+        <!-- armor shred -->
+        <item_modifier name="modShotgunIsiShred" installable_tags="shotgun"
+            modifier_tags="perkShotgunMessiahComplete" blocked_tags="noMods"
+            type="attachment"
+            icon="resourceScrapIron">
+            <property name="Extends" value="modGeneralMaster" />
+            <property name="CustomIcon" value="modMeleeClubMetalSpikes" />
+            <property name="CustomIconTint" value="255,166,77" />
+            <property name="UnlockedBy" value="perkShotgunMessiahComplete" />
+            <property name="TraderStageTemplate" value="modsTier1" />
+
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other"
+                    buff="buffArmorShredding" />
+            </effect_group>
+        </item_modifier>
+
+    </append>
+
+</IronSharkInc>

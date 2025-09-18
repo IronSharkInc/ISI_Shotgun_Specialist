@@ -1,0 +1,31 @@
+<IronSharkInc>
+
+    <append xpath="//recipes">
+
+        <recipe name="modShotgunIsiBlockDamage" count="1" craft_area="workbench"
+            tags="learnable,workbenchCrafting">
+            <ingredient name="resourceForgedSteel" count="5" />
+            <ingredient name="resourceDuctTape" count="5" />
+            <ingredient name="resourceMechanicalParts" count="5" />
+            <ingredient name="resourceSpring" count="10" />
+        </recipe>
+
+        <recipe name="modShotgunIsiRagdoll" count="1" craft_area="workbench"
+            tags="learnable,workbenchCrafting">
+            <ingredient name="resourceForgedSteel" count="5" />
+            <ingredient name="resourceDuctTape" count="5" />
+            <ingredient name="resourceMechanicalParts" count="5" />
+            <ingredient name="resourceSpring" count="10" />
+        </recipe>
+
+        <recipe name="modShotgunIsiShred" count="1" craft_area="workbench"
+            tags="learnable,workbenchCrafting">
+            <ingredient name="resourceForgedSteel" count="5" />
+            <ingredient name="resourceDuctTape" count="5" />
+            <ingredient name="resourceMechanicalParts" count="5" />
+            <ingredient name="resourceSpring" count="10" />
+        </recipe>
+
+    </append>
+
+</IronSharkInc>

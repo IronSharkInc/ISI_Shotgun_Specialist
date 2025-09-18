@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<Name value="ISI-Shotgun-Specialist" />
+	<DisplayName value="ISI Shotgun Specialist" />
+	<Version value="2.3.0.0" />
+	<Description value="Completing Shotgun Messiah no longer one shots wood blocks. Instead it unlocks three new mods - Breacher (extra damage to wood, doors, and safes), Stagger (knockback), and Shredder (armor shredding) - so users can pick what perk they want." />
+	<Author value="IronSharkInc" />
+	<Website value="https://github.com/IronSharkInc" />
+</xml>
