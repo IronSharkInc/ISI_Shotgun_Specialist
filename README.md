@@ -35,3 +35,24 @@ This mod moves that perk to one of three new craftable mods that are unlocked by
 
 ![Normal Enemy](images/shredder-damage-without-mod.png)
 ![Shredded Enemy](images/shredder-damage-with-mod.png)
+
+## Testing
+
+1. **Shotgun Messiah Completion**
+   - Read all Shotgun Messiah books
+   - Verify Breacher, Stagger, and Shredder mods unlock in crafting
+
+2. **Breacher Mod Testing**
+   - Craft and install Breacher mod on shotgun
+   - Test damage against doors, safes, and wood blocks
+   - Verify Breaching Slugs deal triple damage with mod equipped
+
+3. **Stagger Mod Testing**
+   - Craft and install Stagger mod on shotgun
+   - Shoot zombies to confirm knockback effect
+   - Test on different enemy types and sizes
+
+4. **Shredder Mod Testing**
+   - Craft and install Shredder mod on shotgun
+   - Shoot armored enemies (soldiers) to verify armor penetration
+   - Compare damage with and without mod
